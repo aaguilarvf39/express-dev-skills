@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-// Require our todos controller module
+// Require our skills controller module
 const skillsCtrl = require('../controllers/skills');
 
-// All routes will start with '/todos'
+// All routes will start with '/skills'
 
 // GET /skills (index functionality - list all)
 router.get('/', skillsCtrl.index);

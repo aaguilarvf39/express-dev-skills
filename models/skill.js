@@ -15,8 +15,8 @@ module.exports = {
 function update(id, updatedSkill) {
   id = parseInt(id);
   const skill = skills.find((skill) => skill.id === id);
-  // Merge the updatedTodo's properties into the 
-  // existing todo object's properties
+  // Merge the updatedSkill's properties into the 
+  // existing skill object's properties
   Object.assign(skill, updatedSkill);
 }
 
